@@ -1,0 +1,475 @@
+//RelativeLayout
+
+<TextView
+        android:id="@+id/textEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="40dp"
+        android:layout_toEndOf="@+id/textEmail"
+        android:hint="Email"/>
+
+    <TextView
+        android:id="@+id/textPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textEmail"
+        android:layout_marginTop="40dp"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/editEmail"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/textPassword"
+        android:hint="Password"/>
+
+
+
+
+
+
+
+
+
+
+
+        //        radiogroup()
+        //        search()
+        //    }
+        //
+        //    private fun search() {
+        //        val autoCompleteTextView: AutoCompleteTextView = findViewById(R.id.autoCompleteTextView)
+        //        val multiAutoCompleteTextView =
+        //            findViewById<MultiAutoCompleteTextView>(R.id.multiCompleteTextView)
+        //        val languages = arrayOf("Java", "Kotlin", "C", "JavaScript", "C++", "Python", "Dart")
+        //        val arrayAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, languages)
+        //        autoCompleteTextView.setAdapter(arrayAdapter)
+        //        multiAutoCompleteTextView.setAdapter(arrayAdapter)
+        //        multiAutoCompleteTextView.setTokenizer(MultiAutoCompleteTextView.CommaTokenizer())
+        //    }
+        //
+        //    private fun radiogroup() {
+        //        val radioGrop: RadioGroup = findViewById(R.id.radioGroup)
+        //        radioGrop.setOnCheckedChangeListener { radioGroup, id ->
+        //            when (id) {
+        //                R.id.red -> {
+        //                    radioGroup.setBackgroundColor(
+        //                        ContextCompat.getColor(this, R.color.red)
+        //                    )
+        //                }
+        //                R.id.blue -> {
+        //                    radioGroup.setBackgroundColor(
+        //                        ContextCompat.getColor(this, R.color.blue)
+        //                    )
+        //                }
+        //                R.id.green -> {
+        //                    radioGroup.setBackgroundColor(
+        //                        ContextCompat.getColor(this, R.color.green)
+        //                    )
+        //                }
+        //            }
+        //        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               <com.google.android.material.button.MaterialButton
+                    android:id="@+id/simple_dialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Simple Dialog" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/single_choice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sing Choise" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/multi_selection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Multi selection" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/confrim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Confirm" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/full_screen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Full Screen" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/progress_dialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Progress Dialog" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/custom_dilaog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Custom Dialog" />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/simple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Horizontal Dialog"
+                    />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            //findViewById<View>(R.id.simple_dialog).setOnClickListener {
+                            //    simpleDialog()
+                        }
+
+                    }
+                    //    private  fun simpleDialog(){
+                    //        AlertDialog.Builder(this).apply {
+                    //            setTitle("Exit")
+                    //            setMessage("Do you want to exit?")
+                    //            setPositiveButton("Ok"){ _, _ ->
+                    //                finish()
+                    //            }
+                    //            setNegativeButton("No"){ dialog,_ ->
+                    //                dialog.dismiss()
+                    //            }
+                    //        }.create().show()
+                    //    }
+                    //}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!--        android:layout_width="match_parent"-->
+                    <!--        android:layout_height="match_parent"-->
+                    <!--        android:orientation="vertical">-->
+
+                    <!--        <LinearLayout-->
+                    <!--            android:layout_width="wrap_content"-->
+                    <!--            android:layout_height="wrap_content"-->
+                    <!--            android:layout_gravity="center"-->
+                    <!--            android:background="#1B1A19"-->
+                    <!--            android:gravity="center"-->
+                    <!--            android:orientation="vertical">-->
+
+                    <!--            <LinearLayout-->
+                    <!--                android:layout_width="wrap_content"-->
+                    <!--                android:layout_height="wrap_content"-->
+                    <!--                android:layout_gravity="center"-->
+                    <!--                android:background="#1B1A19"-->
+                    <!--                android:gravity="center"-->
+                    <!--                android:orientation="vertical">-->
+
+                    <!--                <com.airbnb.lottie.LottieAnimationView-->
+                    <!--                    android:layout_width="500dp"-->
+                    <!--                    android:layout_height="200dp"-->
+                    <!--                    android:layout_gravity="center"-->
+                    <!--                    app:lottie_autoPlay="true"-->
+                    <!--                    app:lottie_loop="true"-->
+                    <!--                    app:lottie_rawRes="@raw/cat_anim" />-->
+                    <!--            </LinearLayout>-->
+
+                    <!--            <LinearLayout-->
+                    <!--                android:layout_width="wrap_content"-->
+                    <!--                android:layout_height="wrap_content"-->
+                    <!--                android:background="#1B1A19"-->
+                    <!--                android:gravity="center"-->
+                    <!--                android:orientation="vertical"-->
+                    <!--                android:padding="10dp">-->
+
+                    <!--                <TextView-->
+                    <!--                    android:layout_width="wrap_content"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:layout_marginTop="20dp"-->
+                    <!--                    android:layout_marginBottom="20dp"-->
+                    <!--                    android:text="Hello"-->
+                    <!--                    android:textColor="@color/white"-->
+                    <!--                    android:textSize="50sp" />-->
+
+                    <!--                <TextView-->
+                    <!--                    android:layout_width="wrap_content"-->
+                    <!--                    android:layout_height="wrap_content"-->
+                    <!--                    android:text="Track your sleep styles and relax for better sleep"-->
+                    <!--                    android:textColor="@color/white"-->
+                    <!--                    android:textSize="20sp" />-->
+
+                    <!--                <androidx.appcompat.widget.AppCompatButton-->
+                    <!--                    android:layout_width="350dp"-->
+                    <!--                    android:layout_height="55dp"-->
+                    <!--                    android:layout_marginTop="30dp"-->
+                    <!--                    android:background="#F14F1B"-->
+                    <!--                    android:text="Get started"-->
+                    <!--                    android:textAllCaps="false"-->
+                    <!--                    android:textColor="@color/white"-->
+                    <!--                    android:textSize="20sp"-->
+                    <!--                    android:textStyle="bold"-->
+                    <!--                    app:cornerRadius="20dp" />-->
+
+                    <!--            </LinearLayout>-->
+
+                    <!--        </LinearLayout>-->
+
+
+                    <!--        <LinearLayout-->
+                    <!--            android:layout_width="wrap_content"-->
+                    <!--            android:layout_height="wrap_content"-->
+                    <!--            android:layout_margin="20dp"-->
+                    <!--            android:layout_marginTop="100dp"-->
+                    <!--            android:background="@color/white"-->
+                    <!--            android:gravity="center"-->
+                    <!--            android:orientation="vertical"-->
+                    <!--            android:padding="10dp">-->
+
+                    <!--            <com.airbnb.lottie.LottieAnimationView-->
+                    <!--                android:layout_width="wrap_content"-->
+                    <!--                android:layout_height="wrap_content"-->
+                    <!--                android:layout_gravity="center"-->
+                    <!--                android:layout_marginTop="20dp"-->
+                    <!--                app:lottie_autoPlay="true"-->
+                    <!--                app:lottie_loop="true"-->
+                    <!--                app:lottie_rawRes="@raw/people_anim" />-->
+
+                    <!--            <TextView-->
+                    <!--                android:layout_width="wrap_content"-->
+                    <!--                android:layout_height="wrap_content"-->
+                    <!--                android:layout_marginTop="20dp"-->
+                    <!--                android:layout_marginBottom="20dp"-->
+                    <!--                android:gravity="center"-->
+                    <!--                android:text="Welcome Smitty"-->
+                    <!--                android:textColor="@color/black"-->
+                    <!--                android:textSize="50sp" />-->
+
+                    <!--            <TextView-->
+                    <!--                android:layout_width="wrap_content"-->
+                    <!--                android:layout_height="wrap_content"-->
+                    <!--                android:text="Have some problem today?\nDon't worry.Now you are part of\nHi service.Lets us help you"-->
+                    <!--                android:textSize="20sp" />-->
+
+                    <!--            <com.google.android.material.button.MaterialButton-->
+                    <!--                android:layout_width="350dp"-->
+                    <!--                android:layout_height="55dp"-->
+                    <!--                android:layout_marginTop="30dp"-->
+                    <!--                android:text="Back to Home"-->
+                    <!--                android:textAllCaps="false"-->
+                    <!--                android:textColor="@color/white"-->
+                    <!--                android:textSize="20sp"-->
+                    <!--                android:textStyle="bold"-->
+                    <!--                app:cornerRadius="10dp" />-->
+
+                    <!--        </LinearLayout>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RadioGroup
+                                android:id="@+id/radioGroup"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <RadioButton
+                                    android:id="@+id/red"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Red"
+                                    android:textColor="@color/green"
+                                    android:textSize="15sp" />
+
+                                <RadioButton
+                                    android:id="@+id/blue"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Blue"
+                                    android:textColor="@color/red"
+                                    android:textSize="15sp" />
+
+                                <RadioButton
+                                    android:id="@+id/green"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Green"
+                                    android:textColor="@color/blue"
+                                    android:textSize="15sp" />
+
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                                android:id="@+id/autoCompleteTextView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:completionThreshold="1"
+                                android:hint="Search" />
+
+                            <androidx.appcompat.widget.AppCompatMultiAutoCompleteTextView
+                                android:id="@+id/multiCompleteTextView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:completionThreshold="1"
+                                android:hint="Search"
+
+                                />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:text="Java,Kotlin,Dart,JavaScript,C++,C,Python"
+                                android:textSize="17sp" />
